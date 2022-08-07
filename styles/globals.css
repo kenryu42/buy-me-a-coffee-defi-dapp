@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn-web3 {
+    @apply my-10
+    rounded
+      bg-zinc-400
+      py-2
+      px-4
+      font-semibold
+      tracking-widest
+    text-stone-100
+      shadow-lg
+    shadow-zinc-400/50
+    hover:bg-zinc-500;
+  }
+}
